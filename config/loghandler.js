@@ -62,10 +62,7 @@ const watchCollection = (collectionName) => {
 };
 
 const setupChangeStreams = () => {
-    watchCollection('Project');
-    watchCollection('Sprint');
-    watchCollection('Task');
-    watchCollection('Comment');
+    watchCollection('User');
 };
 
 module.exports = setupChangeStreams;
