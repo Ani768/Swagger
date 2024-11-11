@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const setupChangeStreams = require('./config/loghandler'); 
+const setupChangeStreams = require('./loghandler'); 
 
 const connectDB = async () => {
   try {
