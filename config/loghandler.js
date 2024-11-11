@@ -62,7 +62,7 @@ const watchCollection = (collectionName) => {
 };
 
 const setupChangeStreams = () => {
-    watchCollection('users');
+    watchCollection('User');
 };
 
 module.exports = setupChangeStreams;
